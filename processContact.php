@@ -1,10 +1,10 @@
 
 <?php
     //Inserting data from an HTML form into a database table.
-    $server = "localhost";
-    $username = "root";
+    $server = "";
+    $username = "";
     $password = "";
-    $database = "glxtch_photography";
+    $database = "";
     $ServerConnection = mysqli_connect($server, $username, $password);
     
     $id = null;
